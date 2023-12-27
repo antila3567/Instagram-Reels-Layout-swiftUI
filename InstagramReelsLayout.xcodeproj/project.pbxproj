@@ -11,6 +11,17 @@
 		DD6150CF2B3C57FD006913FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150CE2B3C57FD006913FD /* ContentView.swift */; };
 		DD6150D12B3C57FE006913FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6150D02B3C57FE006913FD /* Assets.xcassets */; };
 		DD6150D42B3C57FE006913FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6150D32B3C57FE006913FD /* Preview Assets.xcassets */; };
+		DD6150E02B3C580A006913FD /* Reel 5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD6150DB2B3C580A006913FD /* Reel 5.mp4 */; };
+		DD6150E12B3C580A006913FD /* Reel 4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD6150DC2B3C580A006913FD /* Reel 4.mp4 */; };
+		DD6150E22B3C580A006913FD /* Reel 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD6150DD2B3C580A006913FD /* Reel 1.mp4 */; };
+		DD6150E32B3C580A006913FD /* Reel 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD6150DE2B3C580A006913FD /* Reel 3.mp4 */; };
+		DD6150E42B3C580A006913FD /* Reel 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD6150DF2B3C580A006913FD /* Reel 2.mp4 */; };
+		DD6150E82B3C5879006913FD /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150E72B3C5879006913FD /* Reel.swift */; };
+		DD6150EA2B3C590C006913FD /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150E92B3C590C006913FD /* Like.swift */; };
+		DD6150EC2B3C6041006913FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150EB2B3C6041006913FD /* Home.swift */; };
+		DD6150EE2B3C636C006913FD /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150ED2B3C636C006913FD /* ReelView.swift */; };
+		DD6150F02B3C63A1006913FD /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150EF2B3C63A1006913FD /* CustomVideoPlayer.swift */; };
+		DD6150F32B3C6CFA006913FD /* OffsetKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150F22B3C6CFA006913FD /* OffsetKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		DD6150CE2B3C57FD006913FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6150D02B3C57FE006913FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6150D32B3C57FE006913FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD6150DB2B3C580A006913FD /* Reel 5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reel 5.mp4"; sourceTree = "<group>"; };
+		DD6150DC2B3C580A006913FD /* Reel 4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reel 4.mp4"; sourceTree = "<group>"; };
+		DD6150DD2B3C580A006913FD /* Reel 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reel 1.mp4"; sourceTree = "<group>"; };
+		DD6150DE2B3C580A006913FD /* Reel 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reel 3.mp4"; sourceTree = "<group>"; };
+		DD6150DF2B3C580A006913FD /* Reel 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reel 2.mp4"; sourceTree = "<group>"; };
+		DD6150E72B3C5879006913FD /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		DD6150E92B3C590C006913FD /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		DD6150EB2B3C6041006913FD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DD6150ED2B3C636C006913FD /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		DD6150EF2B3C63A1006913FD /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		DD6150F22B3C6CFA006913FD /* OffsetKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,7 @@
 		DD6150C02B3C57FD006913FD = {
 			isa = PBXGroup;
 			children = (
+				DD6150DA2B3C580A006913FD /* Videos */,
 				DD6150CB2B3C57FD006913FD /* InstagramReelsLayout */,
 				DD6150CA2B3C57FD006913FD /* Products */,
 			);
@@ -51,6 +74,9 @@
 		DD6150CB2B3C57FD006913FD /* InstagramReelsLayout */ = {
 			isa = PBXGroup;
 			children = (
+				DD6150F12B3C6CEA006913FD /* Keys */,
+				DD6150E62B3C5864006913FD /* View */,
+				DD6150E52B3C585F006913FD /* Model */,
 				DD6150CC2B3C57FD006913FD /* InstagramReelsLayoutApp.swift */,
 				DD6150CE2B3C57FD006913FD /* ContentView.swift */,
 				DD6150D02B3C57FE006913FD /* Assets.xcassets */,
@@ -65,6 +91,45 @@
 				DD6150D32B3C57FE006913FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD6150DA2B3C580A006913FD /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				DD6150DB2B3C580A006913FD /* Reel 5.mp4 */,
+				DD6150DC2B3C580A006913FD /* Reel 4.mp4 */,
+				DD6150DD2B3C580A006913FD /* Reel 1.mp4 */,
+				DD6150DE2B3C580A006913FD /* Reel 3.mp4 */,
+				DD6150DF2B3C580A006913FD /* Reel 2.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		DD6150E52B3C585F006913FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD6150E72B3C5879006913FD /* Reel.swift */,
+				DD6150E92B3C590C006913FD /* Like.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD6150E62B3C5864006913FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD6150EB2B3C6041006913FD /* Home.swift */,
+				DD6150ED2B3C636C006913FD /* ReelView.swift */,
+				DD6150EF2B3C63A1006913FD /* CustomVideoPlayer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD6150F12B3C6CEA006913FD /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				DD6150F22B3C6CFA006913FD /* OffsetKeys.swift */,
+			);
+			path = Keys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6150E32B3C580A006913FD /* Reel 3.mp4 in Resources */,
 				DD6150D42B3C57FE006913FD /* Preview Assets.xcassets in Resources */,
+				DD6150E12B3C580A006913FD /* Reel 4.mp4 in Resources */,
+				DD6150E02B3C580A006913FD /* Reel 5.mp4 in Resources */,
+				DD6150E42B3C580A006913FD /* Reel 2.mp4 in Resources */,
+				DD6150E22B3C580A006913FD /* Reel 1.mp4 in Resources */,
 				DD6150D12B3C57FE006913FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6150F02B3C63A1006913FD /* CustomVideoPlayer.swift in Sources */,
+				DD6150EE2B3C636C006913FD /* ReelView.swift in Sources */,
 				DD6150CF2B3C57FD006913FD /* ContentView.swift in Sources */,
+				DD6150E82B3C5879006913FD /* Reel.swift in Sources */,
+				DD6150EC2B3C6041006913FD /* Home.swift in Sources */,
+				DD6150EA2B3C590C006913FD /* Like.swift in Sources */,
+				DD6150F32B3C6CFA006913FD /* OffsetKeys.swift in Sources */,
 				DD6150CD2B3C57FD006913FD /* InstagramReelsLayoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
